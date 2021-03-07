@@ -1,12 +1,12 @@
 import BalanceHelpers from "./BalanceHelpers";
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
 import SingularAccounts from "./SingularAccounts";
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
-import {Blockchains} from '@walletpack/core/models/Blockchains'
-import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
+import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 import {store} from "../../store/store";
-import * as Actions from '@walletpack/core/store/constants';
+import * as Actions from '@vvvictorlee2020/core/store/constants';
 
 export default class Discarder {
 

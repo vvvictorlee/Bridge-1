@@ -53,15 +53,15 @@
 <script>
 
 	import {mapActions, mapGetters, mapState} from "vuex";
-	import Identity from "@walletpack/core/models/Identity";
-	import IdentityService from "@walletpack/core/services/utility/IdentityService";
+	import Identity from "@vvvictorlee2020/core/models/Identity";
+	import IdentityService from "@vvvictorlee2020/core/services/utility/IdentityService";
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
-	import * as Actions from '@walletpack/core/store/constants';
+	import * as Actions from '@vvvictorlee2020/core/store/constants';
 	import RidlService from "../../services/utility/RidlService";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-	import {Blockchains} from '@walletpack/core/models/Blockchains'
-	import Keypair from '@walletpack/core/models/Keypair'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+	import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
+	import Keypair from '@vvvictorlee2020/core/models/Keypair'
 
 	let saveTimeout = null, nameTimeout;
 	export default {

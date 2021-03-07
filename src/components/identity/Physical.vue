@@ -51,10 +51,10 @@
 <script>
 
 	import {mapActions, mapState} from "vuex";
-	import * as Actions from "@walletpack/core/store/constants";
-	import IdentityService from "@walletpack/core/services/utility/IdentityService";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
+	import IdentityService from "@vvvictorlee2020/core/services/utility/IdentityService";
 	import Countries from '../../data/Countries'
-	import {LocationInformation} from "@walletpack/core/models/Identity";
+	import {LocationInformation} from "@vvvictorlee2020/core/models/Identity";
 
 	let saveTimeout, saveTimeout2;
 	export default {

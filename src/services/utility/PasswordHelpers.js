@@ -1,4 +1,4 @@
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 import PopupService from "./PopupService";
 import {Popup} from "../../models/popups/Popup";
 

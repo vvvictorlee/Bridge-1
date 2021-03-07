@@ -17,10 +17,10 @@
 <script>
 	import {mapActions, mapState} from 'vuex';
 	import * as UIActions from '../store/ui_actions'
-	import AppsService from "@walletpack/core/services/apps/AppsService";
+	import AppsService from "@vvvictorlee2020/core/services/apps/AppsService";
 	import Loader from "../util/Loader";
-	import StoreService from "@walletpack/core/services/utility/StoreService";
-	import * as Actions from "@walletpack/core/store/constants";
+	import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
 	import WebsocketAPIService from "../services/utility/WebsocketAPIService";
 
 	const STATES = {

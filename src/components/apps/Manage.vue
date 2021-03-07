@@ -27,8 +27,8 @@
 <script>
 	import {mapActions, mapState} from 'vuex';
 	import * as UIActions from '../../store/ui_actions'
-	import AppsService from "@walletpack/core/services/apps/AppsService";
-	import PermissionService from "@walletpack/core/services/apps/PermissionService";
+	import AppsService from "@vvvictorlee2020/core/services/apps/AppsService";
+	import PermissionService from "@vvvictorlee2020/core/services/apps/PermissionService";
 
 	export default {
 		data(){return {

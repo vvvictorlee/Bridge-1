@@ -1,10 +1,10 @@
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-import {Blockchains} from '@walletpack/core/models/Blockchains'
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
 import SingularAccounts from "./SingularAccounts";
-import HistoricAction from "@walletpack/core/models/histories/HistoricAction";
-import * as Actions from '@walletpack/core/store/constants';
+import HistoricAction from "@vvvictorlee2020/core/models/histories/HistoricAction";
+import * as Actions from '@vvvictorlee2020/core/store/constants';
 import {store} from "../../store/store";
 import BalanceHelpers from "./BalanceHelpers";
 

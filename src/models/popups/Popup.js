@@ -1,6 +1,6 @@
-import IdGenerator from '@walletpack/core/util/IdGenerator';
-import * as ApiActions from '@walletpack/core/models/api/ApiActions';
-import Framework from "@walletpack/core/services/utility/Framework";
+import IdGenerator from '@vvvictorlee2020/core/util/IdGenerator';
+import * as ApiActions from '@vvvictorlee2020/core/models/api/ApiActions';
+import Framework from "@vvvictorlee2020/core/services/utility/Framework";
 
 export const PopupDisplayTypes = {
     POP_IN:'popin',

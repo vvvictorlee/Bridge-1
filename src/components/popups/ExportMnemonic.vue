@@ -23,12 +23,12 @@
 
 <script>
 	import "../../styles/transfers.scss";
-	import {blockchainName} from '@walletpack/core/models/Blockchains'
+	import {blockchainName} from '@vvvictorlee2020/core/models/Blockchains'
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
 	import KeyService from "../../services/utility/KeyService";
 	import {mapState} from "vuex";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 
 	export default {
 		props:['popin', 'closer', 'embedded'],

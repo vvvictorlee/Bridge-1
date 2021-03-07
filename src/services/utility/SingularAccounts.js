@@ -1,11 +1,11 @@
 import {store} from "../../store/store";
-import Network from '@walletpack/core/models/Network'
-import Account from '@walletpack/core/models/Account'
-import NetworkService from "@walletpack/core/services/blockchain/NetworkService";
-import AccountService from "@walletpack/core/services/blockchain/AccountService";
-import PluginRepository from "@walletpack/core/plugins/PluginRepository";
+import Network from '@vvvictorlee2020/core/models/Network'
+import Account from '@vvvictorlee2020/core/models/Account'
+import NetworkService from "@vvvictorlee2020/core/services/blockchain/NetworkService";
+import AccountService from "@vvvictorlee2020/core/services/blockchain/AccountService";
+import PluginRepository from "@vvvictorlee2020/core/plugins/PluginRepository";
 import * as UIActions from "../../store/ui_actions";
-import * as Actions from "@walletpack/core/store/constants";
+import * as Actions from "@vvvictorlee2020/core/store/constants";
 
 export default class SingularAccounts {
 

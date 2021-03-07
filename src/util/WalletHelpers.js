@@ -1,19 +1,19 @@
 import {Popup, PopupData, PopupDisplayTypes} from "../models/popups/Popup";
-import WalletPack from "@walletpack/core";
+import WalletPack from "@vvvictorlee2020/core";
 import {store} from "../store/store";
-import ExternalWallet, {ExternalWalletInterface} from "@walletpack/core/models/hardware/ExternalWallet";
+import ExternalWallet, {ExternalWalletInterface} from "@vvvictorlee2020/core/models/hardware/ExternalWallet";
 import SocketService from "../services/wallets/SocketService";
 import WalletTalk from "./WalletTalk";
-import AppsService from '@walletpack/core/services/apps/AppsService'
-import KeyPairService from '@walletpack/core/services/secure/KeyPairService'
+import AppsService from '@vvvictorlee2020/core/services/apps/AppsService'
+import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService'
 import PopupService from "../services/utility/PopupService";
 import WindowService from "../services/utility/WindowService";
-import Network from '@walletpack/core/models/Network';
+import Network from '@vvvictorlee2020/core/models/Network';
 import SingularAccounts from "../services/utility/SingularAccounts";
 import Popups from "./Popups";
-import Error from '@walletpack/core/models/errors/Error'
-import {BlockchainsArray, Blockchains} from '@walletpack/core/models/Blockchains';
-import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+import Error from '@vvvictorlee2020/core/models/errors/Error'
+import {BlockchainsArray, Blockchains} from '@vvvictorlee2020/core/models/Blockchains';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 
 let walletType;
 export default class WalletHelpers {
@@ -90,13 +90,15 @@ export default class WalletHelpers {
 					TRX:'trx',
 					BTC:'btc',
 					FIO:'fio',
+ROXE:'rox',
 				},
 				plugins:[
-					require('@walletpack/eosio').default,
-					require('@walletpack/ethereum').default,
-					require('@walletpack/tron').default,
-					require('@walletpack/bitcoin').default,
-					require('@walletpack/fio').default,
+					require('@vvvictorlee2020/eosio').default,
+					require('@vvvictorlee2020/ethereum').default,
+					require('@vvvictorlee2020/tron').default,
+					require('@vvvictorlee2020/bitcoin').default,
+					require('@vvvictorlee2020/fio').default,
+require('@vvvictorlee2020/roxe').default,
 				]
 			},
 			store,

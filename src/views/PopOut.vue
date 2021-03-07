@@ -19,9 +19,9 @@
 
 <script>
 	import { mapActions, mapGetters, mapState } from 'vuex'
-	import * as Actions from '@walletpack/core/store/constants';
-	import Scatter from '@walletpack/core/models/Scatter';
-	import * as ApiActions from '@walletpack/core/models/api/ApiActions';
+	import * as Actions from '@vvvictorlee2020/core/store/constants';
+	import Scatter from '@vvvictorlee2020/core/models/Scatter';
+	import * as ApiActions from '@vvvictorlee2020/core/models/api/ApiActions';
 	import {Popup} from "../models/popups/Popup";
 	import * as UIActions from "../store/ui_actions";
 	import PasswordHelpers from "../services/utility/PasswordHelpers";

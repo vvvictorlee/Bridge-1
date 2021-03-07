@@ -7,9 +7,9 @@ import VTooltip from 'v-tooltip'
 
 import VueRouter from 'vue-router'
 import {RouteNames, Routing} from './Routing';
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 import THEMES from "../util/Themes";
-import * as Actions from "@walletpack/core/store/constants";
+import * as Actions from "@vvvictorlee2020/core/store/constants";
 import Loader from "../util/Loader";
 import Injectable from "../services/wallets/Injectable";
 import {store} from "../store/store";

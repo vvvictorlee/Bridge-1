@@ -1,5 +1,5 @@
 import StorageService from "./StorageService";
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 import * as UIActions from "../../store/ui_actions";
 import {PAYMENT_SERVICES} from "../credit/PurchasingService";
 import Moonpay from "../credit/Moonpay";

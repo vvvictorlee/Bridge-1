@@ -71,7 +71,7 @@
 	import Popups from "../../util/Popups";
 	import * as UIActions from '../../store/ui_actions';
 	import QRService from "../../services/utility/QRService";
-	import {Blockchains} from '@walletpack/core/models/Blockchains'
+	import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
 
 	export default {
 		props:['popin', 'closer'],

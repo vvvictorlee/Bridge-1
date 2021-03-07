@@ -92,18 +92,18 @@
 </template>
 
 <script>
-	import {IdentityRequiredFields} from "@walletpack/core/models/Identity";
+	import {IdentityRequiredFields} from "@vvvictorlee2020/core/models/Identity";
 	import {mapState} from "vuex";
-	import Network from "@walletpack/core/models/Network";
+	import Network from "@vvvictorlee2020/core/models/Network";
 	import SymbolBall from "../../components/reusable/SymbolBall";
-	import PermissionService from "@walletpack/core/services/apps/PermissionService";
-	import Account from "@walletpack/core/models/Account";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import Hasher from "@walletpack/core/util/Hasher";
+	import PermissionService from "@vvvictorlee2020/core/services/apps/PermissionService";
+	import Account from "@vvvictorlee2020/core/models/Account";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import Hasher from "@vvvictorlee2020/core/util/Hasher";
 	import JSONFormatter from 'json-formatter-js'
 	import PopOutLogos from "../../components/popups/PopOutLogos";
-	import Token from "@walletpack/core/models/Token";
-	import {Blockchains} from "@walletpack/core/models/Blockchains";
+	import Token from "@vvvictorlee2020/core/models/Token";
+	import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
 	import BalanceHelpers from "../../services/utility/BalanceHelpers";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
 

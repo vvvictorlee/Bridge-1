@@ -105,18 +105,18 @@
 
 <script>
 	import "../../styles/transfers.scss";
-	import {BlockchainsArray, blockchainName} from '@walletpack/core/models/Blockchains'
+	import {BlockchainsArray, blockchainName} from '@vvvictorlee2020/core/models/Blockchains'
 	import SingularAccounts from "../../services/utility/SingularAccounts";
 	import {mapActions, mapState} from "vuex";
-	import * as Actions from '@walletpack/core/store/constants';
-	import BalanceService from '@walletpack/core/services/blockchain/BalanceService';
+	import * as Actions from '@vvvictorlee2020/core/store/constants';
+	import BalanceService from '@vvvictorlee2020/core/services/blockchain/BalanceService';
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
-	import Account from '@walletpack/core/models/Account'
-	import Keypair from '@walletpack/core/models/Keypair'
-	import KeyPairService from '@walletpack/core/services/secure/KeyPairService'
-	import AccountService from '@walletpack/core/services/blockchain/AccountService'
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import Account from '@vvvictorlee2020/core/models/Account'
+	import Keypair from '@vvvictorlee2020/core/models/Keypair'
+	import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService'
+	import AccountService from '@vvvictorlee2020/core/services/blockchain/AccountService'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 	import KeyService from "../../services/utility/KeyService";
 	import * as UIActions from "../../store/ui_actions";
 

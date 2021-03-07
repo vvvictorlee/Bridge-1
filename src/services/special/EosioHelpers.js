@@ -1,7 +1,7 @@
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-import IdGenerator from '@walletpack/core/util/IdGenerator';
-import {Blockchains} from "@walletpack/core/models/Blockchains";
-import Account from '@walletpack/core/models/Account';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+import IdGenerator from '@vvvictorlee2020/core/util/IdGenerator';
+import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
+import Account from '@vvvictorlee2020/core/models/Account';
 import {store} from '../../store/store';
 
 const PAYER_API_URL = `https://payer.get-scatter.com`;

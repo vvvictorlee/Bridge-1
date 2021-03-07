@@ -36,14 +36,14 @@
 </template>
 
 <script>
-	import {IdentityRequiredFields} from "@walletpack/core/models/Identity";
+	import {IdentityRequiredFields} from "@vvvictorlee2020/core/models/Identity";
 	import {mapState} from "vuex";
-	import Token from "@walletpack/core/models/Token";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import Network from "@walletpack/core/models/Network";
+	import Token from "@vvvictorlee2020/core/models/Token";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import Network from "@vvvictorlee2020/core/models/Network";
 	import TransferHead from "../../components/reusable/TransferHead";
-	import TokenService from "@walletpack/core/services/utility/TokenService";
-	import {Blockchains} from "@walletpack/core/models/Blockchains";
+	import TokenService from "@vvvictorlee2020/core/services/utility/TokenService";
+	import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
 	import PopOutLogos from "../../components/popups/PopOutLogos";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
 

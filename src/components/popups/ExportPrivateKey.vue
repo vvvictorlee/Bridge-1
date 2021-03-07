@@ -34,7 +34,7 @@
 
 <script>
 	import "../../styles/transfers.scss";
-	import {blockchainName} from '@walletpack/core/models/Blockchains'
+	import {blockchainName} from '@vvvictorlee2020/core/models/Blockchains'
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
 	import QRService from "../../services/utility/QRService";

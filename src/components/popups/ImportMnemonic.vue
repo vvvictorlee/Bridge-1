@@ -26,10 +26,10 @@
 	import "../../styles/transfers.scss";
 	import {mapActions, mapState} from "vuex";
 	import * as UIActions from '../../store/ui_actions';
-	import {blockchainName, BlockchainsArray, Blockchains} from '@walletpack/core/models/Blockchains'
+	import {blockchainName, BlockchainsArray, Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
 	import KeyService from "../../services/utility/KeyService";
-	import KeyPairService from '@walletpack/core/services/secure/KeyPairService';
-	import AccountService from '@walletpack/core/services/blockchain/AccountService';
+	import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService';
+	import AccountService from '@vvvictorlee2020/core/services/blockchain/AccountService';
 	import SingularAccounts from "../../services/utility/SingularAccounts";
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";

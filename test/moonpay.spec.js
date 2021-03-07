@@ -1,7 +1,7 @@
 import "mocha"
 import { assert } from "chai"
 import Moonpay from "../src/services/credit/Moonpay";
-import Token from '@walletpack/core/models/Token';
+import Token from '@vvvictorlee2020/core/models/Token';
 import "isomorphic-fetch"
 require('dotenv').config();
 

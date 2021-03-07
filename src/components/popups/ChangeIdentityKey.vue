@@ -30,11 +30,11 @@
 <script>
 
 	import KeyService from "../../services/utility/KeyService";
-	import Keypair from '@walletpack/core/models/Keypair';
-	import KeyPairService from '@walletpack/core/services/secure/KeyPairService';
-	import {Blockchains} from '@walletpack/core/models/Blockchains'
+	import Keypair from '@vvvictorlee2020/core/models/Keypair';
+	import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService';
+	import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
 	import {mapState} from "vuex";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository';
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
 

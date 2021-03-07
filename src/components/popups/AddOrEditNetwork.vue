@@ -65,13 +65,13 @@
 <script>
 
 	import {mapState} from "vuex";
-	import Network from '@walletpack/core/models/Network'
-	import Token from '@walletpack/core/models/Token'
-	import NetworkService from '@walletpack/core/services/blockchain/NetworkService'
+	import Network from '@vvvictorlee2020/core/models/Network'
+	import Token from '@vvvictorlee2020/core/models/Token'
+	import NetworkService from '@vvvictorlee2020/core/services/blockchain/NetworkService'
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
-	import {BlockchainsArray, Blockchains, blockchainName} from '@walletpack/core/models/Blockchains'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
+	import {BlockchainsArray, Blockchains, blockchainName} from '@vvvictorlee2020/core/models/Blockchains'
 
 	const STATES = {
 		NETWORK:'network',

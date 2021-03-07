@@ -27,7 +27,7 @@
 	import "../../styles/transfers.scss";
 	import TransferHead from "../reusable/TransferHead";
 	import {mapState} from "vuex";
-	import Token from '@walletpack/core/models/Token'
+	import Token from '@vvvictorlee2020/core/models/Token'
 
 	export default {
 		props:['popin', 'closer'],

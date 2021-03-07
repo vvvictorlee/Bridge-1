@@ -63,14 +63,14 @@
 <script>
 	import "../../../styles/transfers.scss";
 	import SymbolBall from "../../reusable/SymbolBall";
-	import {Blockchains} from '@walletpack/core/models/Blockchains'
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 	import {mapState} from "vuex";
 	import PopupService from "../../../services/utility/PopupService";
 	import Popups from "../../../util/Popups";
 	import BalanceHelpers from "../../../services/utility/BalanceHelpers";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import TransferService from "@walletpack/core/services/blockchain/TransferService";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
 
 	const STATES = {
 		RECEIVED:0,

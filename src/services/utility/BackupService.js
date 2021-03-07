@@ -1,7 +1,7 @@
-import * as Actions from '@walletpack/core/store/constants';
-import {BACKUP_STRATEGIES} from '@walletpack/core/models/Settings';
+import * as Actions from '@vvvictorlee2020/core/store/constants';
+import {BACKUP_STRATEGIES} from '@vvvictorlee2020/core/models/Settings';
 import StorageService from '../../services/wallets/StorageService';
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 import * as FileService from "../wallets/FileService";
 
 const saveBackup = async (filepath) => {

@@ -28,8 +28,8 @@
 <script>
 	import "../../../styles/transfers.scss";
 	import SymbolBall from "../../reusable/SymbolBall";
-	import {Blockchains} from '@walletpack/core/models/Blockchains'
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 	import {mapState} from "vuex";
 	import PopupService from "../../../services/utility/PopupService";
 	import Popups from "../../../util/Popups";

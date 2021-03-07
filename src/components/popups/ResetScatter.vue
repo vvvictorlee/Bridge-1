@@ -19,7 +19,7 @@
 </template>
 
 <script>
-	import SocketService from "@walletpack/core/services/utility/SocketService";
+	import SocketService from "@vvvictorlee2020/core/services/utility/SocketService";
 
 	export default {
 		props:['popin', 'closer'],

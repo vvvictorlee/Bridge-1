@@ -1,5 +1,5 @@
 import {store} from "../../store/store";
-import BalanceService from '@walletpack/core/services/blockchain/BalanceService'
+import BalanceService from '@vvvictorlee2020/core/services/blockchain/BalanceService'
 import SingularAccounts from "./SingularAccounts";
 
 export default class BalanceHelpers {

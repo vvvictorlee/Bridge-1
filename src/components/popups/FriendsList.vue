@@ -105,7 +105,7 @@
 	import {mapActions, mapGetters, mapState} from "vuex";
 	import SymbolBall from "../reusable/SymbolBall";
 	import Friend from "../../models/Friend";
-	import * as Actions from '@walletpack/core/store/constants';
+	import * as Actions from '@vvvictorlee2020/core/store/constants';
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
 

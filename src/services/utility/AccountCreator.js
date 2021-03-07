@@ -1,14 +1,14 @@
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-import {Blockchains} from '@walletpack/core/models/Blockchains';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains';
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
 import {store} from "../../store/store";
 import EosioHelpers from "../special/EosioHelpers";
 import Moonpay from "../credit/Moonpay";
 import SingularAccounts from "./SingularAccounts";
-import Account from '@walletpack/core/models/Account'
-import AccountService from '@walletpack/core/services/blockchain/AccountService'
-import BalanceService from '@walletpack/core/services/blockchain/BalanceService'
+import Account from '@vvvictorlee2020/core/models/Account'
+import AccountService from '@vvvictorlee2020/core/services/blockchain/AccountService'
+import BalanceService from '@vvvictorlee2020/core/services/blockchain/BalanceService'
 
 export default class AccountCreator {
 

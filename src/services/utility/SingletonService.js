@@ -1,17 +1,17 @@
 
-import PriceService from "@walletpack/core/services/apis/PriceService";
-import SocketService from "@walletpack/core/services/utility/SocketService";
-import AppsService from "@walletpack/core/services/apps/AppsService";
-import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+import SocketService from "@vvvictorlee2020/core/services/utility/SocketService";
+import AppsService from "@vvvictorlee2020/core/services/apps/AppsService";
+import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 import WatcherService from "./WatcherService";
 import KYCService from "../kyc/KYCService";
 import BalanceHelpers from "./BalanceHelpers";
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-import {Blockchains} from '@walletpack/core/models/Blockchains'
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
 import * as UIActions from "../../store/ui_actions";
-import {GET, POST} from "@walletpack/core/services/apis/BackendApiService";
+import {GET, POST} from "@vvvictorlee2020/core/services/apis/BackendApiService";
 import {store} from "../../store/store";
-import * as Actions from '@walletpack/core/store/constants';
+import * as Actions from '@vvvictorlee2020/core/store/constants';
 import EosioHelpers from "../special/EosioHelpers";
 import SingularAccounts from "./SingularAccounts";
 import PremiumService from "../premium/PremiumService";

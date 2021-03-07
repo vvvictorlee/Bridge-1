@@ -1,6 +1,6 @@
 import WindowMessage from '../../models/popups/WindowMessage';
-import StoreService from "@walletpack/core/services/utility/StoreService";
-import AppsService from "@walletpack/core/services/apps/AppsService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
+import AppsService from "@vvvictorlee2020/core/services/apps/AppsService";
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
 

@@ -27,9 +27,9 @@
 </template>
 
 <script>
-	import ExternalWallet from '@walletpack/core/models/hardware/ExternalWallet';
-	import {Blockchains, BlockchainsArray} from "@walletpack/core/models/Blockchains";
-	import Keypair from "@walletpack/core/models/Keypair";
+	import ExternalWallet from '@vvvictorlee2020/core/models/hardware/ExternalWallet';
+	import {Blockchains, BlockchainsArray} from "@vvvictorlee2020/core/models/Blockchains";
+	import Keypair from "@vvvictorlee2020/core/models/Keypair";
 	import PopupService from "../../../services/utility/PopupService";
 	import Popups from "../../../util/Popups";
 

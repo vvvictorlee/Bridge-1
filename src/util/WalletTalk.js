@@ -1,9 +1,9 @@
-import IdGenerator from "@walletpack/core/util/IdGenerator";
-import * as CoreSocketService from "@walletpack/core/services/utility/SocketService";
-import ApiService from "@walletpack/core/services/apis/ApiService";
+import IdGenerator from "@vvvictorlee2020/core/util/IdGenerator";
+import * as CoreSocketService from "@vvvictorlee2020/core/services/utility/SocketService";
+import ApiService from "@vvvictorlee2020/core/services/apis/ApiService";
 import * as UIActions from "../store/ui_actions";
 import {store} from "../store/store";
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
 
 export default class WalletTalk {
 
@@ -112,16 +112,16 @@ export default class WalletTalk {
 
 	static setFakeWallet(){
 		return new Promise(resolve => {
-			require('@walletpack/core/services/utility/Framework').default.init({
+			require('@vvvictorlee2020/core/services/utility/Framework').default.init({
 				getVersion:() => '1.0.0',
 			});
 
 			let unlocked = true;
 
-			require('@walletpack/core/models/Scatter').default.create().then(fakeScatter => {
+			require('@vvvictorlee2020/core/models/Scatter').default.create().then(fakeScatter => {
 				fakeScatter.onboarded = true;
 
-				const network = require('@walletpack/core/models/Network').default.fromJson({
+				const network = require('@vvvictorlee2020/core/models/Network').default.fromJson({
 					blockchain:'eos',
 					name:'EOS Mainnet',
 					host:'nodes.get-scatter.com',
@@ -130,7 +130,7 @@ export default class WalletTalk {
 					chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
 				});
 
-				const network2 = require('@walletpack/core/models/Network').default.fromJson({
+				const network2 = require('@vvvictorlee2020/core/models/Network').default.fromJson({
 					blockchain:'eos',
 					name:'Telos Mainnet',
 					host:'api.eos.miami',
@@ -145,7 +145,7 @@ export default class WalletTalk {
 					}
 				});
 
-				const network3 = require('@walletpack/core/models/Network').default.fromJson({
+				const network3 = require('@vvvictorlee2020/core/models/Network').default.fromJson({
 					blockchain:'eth',
 					name:'ETH Mainnet',
 					host:'ethnodes.get-scatter.com',
@@ -154,7 +154,7 @@ export default class WalletTalk {
 					chainId:'1'
 				});
 
-				const network4 = require('@walletpack/core/models/Network').default.fromJson({
+				const network4 = require('@vvvictorlee2020/core/models/Network').default.fromJson({
 					blockchain:'fio',
 					name:'FIO Mainnet',
 					host:'fio.greymass.com',
@@ -163,21 +163,36 @@ export default class WalletTalk {
 					chainId:'21dcae42c0182200e93f954a074011f9048a7624c6fe81d3c9541a614a88bd1c'
 				});
 
-				const keypair = require('@walletpack/core/models/Keypair').default.fromJson({
+		const network5 = require('@vvvictorlee2020/core/models/Network').default.fromJson({
+					blockchain:'rox',
+					name:'roxe Testnet',
+					host:'172.17.3.161',
+					port:7878,
+					protocol:'http',
+					chainId:'1a7c1e220c79277068a08fe57bb0461ed65ccc39950324272f63cfaeb7db10c7',
+					token:{
+						blockchain:'rox',
+						symbol:"ROC",
+						contract:"roxe.token",
+						decimals:4
+					}
+				});
+
+				const keypair = require('@vvvictorlee2020/core/models/Keypair').default.fromJson({
 					name:'testkey',
 					privateKey:'{test:"key"}',
 					publicKeys:[{key:'EOS7w5aJCv5B7y3a6f4WCwPSvs6TpCAoRGnGpiLMsSWbmxaZdKigd', blockchain:'eos'}],
 					blockchains:['eos']
 				});
 
-				const keypair2 = require('@walletpack/core/models/Keypair').default.fromJson({
+				const keypair2 = require('@vvvictorlee2020/core/models/Keypair').default.fromJson({
 					name:'testkey2',
 					privateKey:'{test:"key"}',
 					publicKeys:[{key:'0xf4baba092bb9aaf76e0c03b856398b9ebed0819f', blockchain:'eth'}],
 					blockchains:['eth']
 				});
 
-				const account = require('@walletpack/core/models/Account').default.fromJson({
+				const account = require('@vvvictorlee2020/core/models/Account').default.fromJson({
 					name:'ramdeathtest',
 					authority:'active',
 					publicKey:keypair.publicKeys[0].key,
@@ -185,7 +200,7 @@ export default class WalletTalk {
 					networkUnique:network.unique(),
 				})
 
-				const account2 = require('@walletpack/core/models/Account').default.fromJson({
+				const account2 = require('@vvvictorlee2020/core/models/Account').default.fromJson({
 					name:'ramijames123',
 					authority:'active',
 					publicKey:keypair.publicKeys[0].key,
@@ -193,7 +208,7 @@ export default class WalletTalk {
 					networkUnique:network.unique(),
 				})
 
-				const account3 = require('@walletpack/core/models/Account').default.fromJson({
+				const account3 = require('@vvvictorlee2020/core/models/Account').default.fromJson({
 					name:'telosmiamibp',
 					authority:'active',
 					publicKey:keypair.publicKeys[0].key,
@@ -201,7 +216,7 @@ export default class WalletTalk {
 					networkUnique:network2.unique(),
 				})
 
-				const account4 = require('@walletpack/core/models/Account').default.fromJson({
+				const account4 = require('@vvvictorlee2020/core/models/Account').default.fromJson({
 					name:'',
 					authority:'',
 					publicKey:keypair2.publicKeys[0].key,
@@ -213,15 +228,16 @@ export default class WalletTalk {
 				fakeScatter.settings.networks.push(network2);
 				fakeScatter.settings.networks.push(network3);
 				fakeScatter.settings.networks.push(network4);
+		fakeScatter.settings.networks.push(network5);
 				fakeScatter.keychain.keypairs.push(keypair);
 				fakeScatter.keychain.keypairs.push(keypair2);
-				fakeScatter.keychain.keypairs.push(require('@walletpack/core/models/Keypair').default.fromJson({
+				fakeScatter.keychain.keypairs.push(require('@vvvictorlee2020/core/models/Keypair').default.fromJson({
 					name:'testkey3',
 					privateKey:'{test:"key"}',
 					publicKeys:[{key:'EOS7w5aJCv5B7y3a6f4WCwPSvs6TpCAoRGnGpiLMsSWbmxaZdKigr', blockchain:'eos'}],
 					blockchains:['eos']
 				}));
-				fakeScatter.keychain.keypairs.push(require('@walletpack/core/models/Keypair').default.fromJson({
+				fakeScatter.keychain.keypairs.push(require('@vvvictorlee2020/core/models/Keypair').default.fromJson({
 					name:'testkey4',
 					privateKey:'{test:"key"}',
 					publicKeys:[{key:'FIO6v3xZvYQSsuuq3uP579voCEzJt3SVmHDFD3VhCNCugmHn8UtkY', blockchain:'fio'}],
@@ -240,6 +256,7 @@ export default class WalletTalk {
 					/**       SIGNING & WALLET         **/
 					/************************************/
 					availableBlockchains:() => ({
+ROXE:'rox',
 						EOSIO:'eos',
 						ETH:'eth',
 						TRX:'trx',

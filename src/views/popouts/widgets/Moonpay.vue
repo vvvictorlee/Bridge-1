@@ -19,7 +19,7 @@
 
 <script>
 	import {mapState} from "vuex";
-	import {POST} from '@walletpack/core/services/apis/BackendApiService';
+	import {POST} from '@vvvictorlee2020/core/services/apis/BackendApiService';
 
 	let intval = null;
 	export default {

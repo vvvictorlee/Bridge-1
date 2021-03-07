@@ -48,7 +48,7 @@
 
 <script>
 	import "../../styles/transfers.scss";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
 
 	import TransferHead from "../reusable/TransferHead";
 	import {mapState} from "vuex";

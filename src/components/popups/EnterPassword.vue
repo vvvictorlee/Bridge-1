@@ -41,7 +41,7 @@
 	import "../../styles/transfers.scss";
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
-	import PasswordService from '@walletpack/core/services/secure/PasswordService'
+	import PasswordService from '@vvvictorlee2020/core/services/secure/PasswordService'
 
 	export default {
 		props:['popin', 'closer'],

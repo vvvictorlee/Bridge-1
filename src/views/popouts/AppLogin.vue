@@ -27,10 +27,10 @@
 </template>
 
 <script>
-	import {IdentityRequiredFields} from "@walletpack/core/models/Identity";
+	import {IdentityRequiredFields} from "@vvvictorlee2020/core/models/Identity";
 	import {mapState} from "vuex";
-	import Account from "@walletpack/core/models/Account";
-	import Network from "@walletpack/core/models/Network";
+	import Account from "@vvvictorlee2020/core/models/Account";
+	import Network from "@vvvictorlee2020/core/models/Network";
 	import PopOutLogos from "../../components/popups/PopOutLogos";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
 

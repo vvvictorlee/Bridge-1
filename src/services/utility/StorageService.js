@@ -1,4 +1,4 @@
-import {RUNNING_TESTS, TestStore} from "@walletpack/core/util/TestingHelper";
+import {RUNNING_TESTS, TestStore} from "@vvvictorlee2020/core/util/TestingHelper";
 
 const ABIS_NAME = 'abi';
 const HISTORIES_NAME = 'histories';
@@ -7,15 +7,15 @@ const SCATTER_DATA_NAME = 'scatter';
 const SCATTER_INTERMED_NAME = 'scatter_intermed';
 
 import {AES} from "aes-oop";
-import {HISTORY_TYPES} from "@walletpack/core/models/histories/History";
-import HistoricTransfer from "@walletpack/core/models/histories/HistoricTransfer";
-import HistoricExchange from "@walletpack/core/models/histories/HistoricExchange";
-import HistoricAction from "@walletpack/core/models/histories/HistoricAction";
-import Seeder from "@walletpack/core/services/secure/Seeder";
+import {HISTORY_TYPES} from "@vvvictorlee2020/core/models/histories/History";
+import HistoricTransfer from "@vvvictorlee2020/core/models/histories/HistoricTransfer";
+import HistoricExchange from "@vvvictorlee2020/core/models/histories/HistoricExchange";
+import HistoricAction from "@vvvictorlee2020/core/models/histories/HistoricAction";
+import Seeder from "@vvvictorlee2020/core/services/secure/Seeder";
 import {saveFile} from "./FileService";
 import Compressor from "../../util/Compressor";
 import {GET, POST} from "../../util/API";
-import Hasher from "@walletpack/core/util/Hasher";
+import Hasher from "@vvvictorlee2020/core/util/Hasher";
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
 

@@ -82,7 +82,7 @@
 	import {mapActions, mapState} from "vuex";
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
-	import IdentityService from "@walletpack/core/services/utility/IdentityService";
+	import IdentityService from "@vvvictorlee2020/core/services/utility/IdentityService";
 	import PremiumService from "../../services/premium/PremiumService";
 
 	const STATES = {

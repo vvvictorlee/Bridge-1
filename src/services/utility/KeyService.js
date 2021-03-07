@@ -1,10 +1,10 @@
-import Keypair from '@walletpack/core/models/Keypair';
-import KeyPairService from '@walletpack/core/services/secure/KeyPairService';
+import Keypair from '@vvvictorlee2020/core/models/Keypair';
+import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService';
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
-import PluginRepository from "@walletpack/core/plugins/PluginRepository";
-import {Blockchains, BlockchainsArray} from "@walletpack/core/models/Blockchains";
-import Account from "@walletpack/core/models/Account";
+import PluginRepository from "@vvvictorlee2020/core/plugins/PluginRepository";
+import {Blockchains, BlockchainsArray} from "@vvvictorlee2020/core/models/Blockchains";
+import Account from "@vvvictorlee2020/core/models/Account";
 import bip39 from "bip39";
 import * as bip32 from "bip32";
 

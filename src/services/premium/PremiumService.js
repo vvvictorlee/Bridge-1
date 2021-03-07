@@ -1,13 +1,13 @@
 import {store} from "../../store/store";
-import {Blockchains} from "@walletpack/core/models/Blockchains";
-import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 import ecc from 'eosjs-ecc';
 import BalanceHelpers from "../utility/BalanceHelpers";
 import PopupService from "../utility/PopupService";
 import Popups from "../../util/Popups";
-import Token from "@walletpack/core/models/Token";
+import Token from "@vvvictorlee2020/core/models/Token";
 import SingularAccounts from "../utility/SingularAccounts";
-import TransferService from "@walletpack/core/services/blockchain/TransferService";
+import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
 import * as UIActions from '../../store/ui_actions'
 
 const HOST = 'https://premium.get-scatter.com';

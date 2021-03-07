@@ -40,9 +40,9 @@
 <script>
 
 	import {mapState} from "vuex";
-	import KeyPairService from '@walletpack/core/services/secure/KeyPairService'
-	import {blockchainName} from "@walletpack/core/models/Blockchains";
-	import Keypair from '@walletpack/core/models/Keypair'
+	import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService'
+	import {blockchainName} from "@vvvictorlee2020/core/models/Blockchains";
+	import Keypair from '@vvvictorlee2020/core/models/Keypair'
 
 	export default {
 		props:['popin', 'closer'],

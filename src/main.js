@@ -18,7 +18,7 @@ import AnimatedNumber from './components/reusable/AnimatedNumber';
 import SearchBar from './components/reusable/SearchBar';
 import Switcher from './components/reusable/Switcher';
 import Select from './components/reusable/Select';
-import StoreService from '@walletpack/core/services/utility/StoreService';
+import StoreService from '@vvvictorlee2020/core/services/utility/StoreService';
 import {store} from './store/store';
 
 import VLazyImage from "v-lazy-image";
@@ -29,7 +29,7 @@ import '@fortawesome/fontawesome-pro/css/light.css'
 import Loader from "./util/Loader";
 import WalletTalk from "./util/WalletTalk";
 import WalletHelpers from "./util/WalletHelpers";
-import * as Actions from "@walletpack/core/store/constants";
+import * as Actions from "@vvvictorlee2020/core/store/constants";
 import SingletonService from "./services/utility/SingletonService";
 
 // f12 to open console from anywhere.

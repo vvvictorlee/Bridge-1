@@ -4,6 +4,7 @@ const childProcess = require('child_process');
 const packages = [
 	'core',
 	'eosio',
+    'roxe',
 	'tron',
 	'bitcoin',
 	'ethereum',
@@ -15,7 +16,7 @@ const isLocal = args[0] || false;
 let installString = `yarn add `;
 
 packages.map(pack => {
-	installString += `${isLocal ? 'file:../../Libraries/walletpack/packages/' : '@walletpack/'}${pack} `
+	installString += `${isLocal ? 'file:../../Libraries/walletpack/packages/' : '@vvvictorlee2020/'}${pack} `
 });
 
 console.log(installString);

@@ -360,17 +360,17 @@
 	import Switcher from "../components/reusable/Switcher";
 	import PopupService from "../services/utility/PopupService";
 	import Popups from "../util/Popups";
-	import {blockchainName, BlockchainsArray} from "@walletpack/core/models/Blockchains";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import * as Actions from "@walletpack/core/store/constants";
-	import {GET} from "@walletpack/core/services/apis/BackendApiService";
-	import Network from '@walletpack/core/models/Network'
-	import NetworkService from "@walletpack/core/services/blockchain/NetworkService";
-	import AccountService from "@walletpack/core/services/blockchain/AccountService";
-	import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+	import {blockchainName, BlockchainsArray} from "@vvvictorlee2020/core/models/Blockchains";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
+	import {GET} from "@vvvictorlee2020/core/services/apis/BackendApiService";
+	import Network from '@vvvictorlee2020/core/models/Network'
+	import NetworkService from "@vvvictorlee2020/core/services/blockchain/NetworkService";
+	import AccountService from "@vvvictorlee2020/core/services/blockchain/AccountService";
+	import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 	import SingularAccounts from "../services/utility/SingularAccounts";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-	import * as PluginTypes from '@walletpack/core/plugins/PluginTypes';
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+	import * as PluginTypes from '@vvvictorlee2020/core/plugins/PluginTypes';
 	import GoPremium from '../components/popups/GoPremium'
 	import BackupService from "../services/utility/BackupService";
 	const packageJson = require('../../package');

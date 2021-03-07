@@ -1,5 +1,5 @@
-import StoreService from "@walletpack/core/services/utility/StoreService";
-import * as Actions from "@walletpack/core/store/constants";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
+import * as Actions from "@vvvictorlee2020/core/store/constants";
 import StorageService from "../utility/StorageService";
 
 

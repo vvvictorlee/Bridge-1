@@ -47,7 +47,7 @@
 	import RidlService from "../../services/utility/RidlService";
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
-	import TransferService from "@walletpack/core/services/blockchain/TransferService";
+	import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
 
 	const STATES = {

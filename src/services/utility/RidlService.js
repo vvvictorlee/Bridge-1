@@ -1,11 +1,11 @@
 import RIDL from 'ridl-js';
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-import {Blockchains} from '@walletpack/core/models/Blockchains'
-import Token from '@walletpack/core/models/Token'
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
+import Token from '@vvvictorlee2020/core/models/Token'
 import BalanceHelpers from "./BalanceHelpers";
 import PopupService from "./PopupService";
 import Popups from "../../util/Popups";
-import TransferService from "@walletpack/core/services/blockchain/TransferService";
+import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
 import SingularAccounts from "./SingularAccounts";
 import EosioHelpers from "../special/EosioHelpers";
 

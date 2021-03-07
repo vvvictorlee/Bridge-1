@@ -1,13 +1,13 @@
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 import PopupService from "../utility/PopupService";
 import Popups from "../../util/Popups";
-import Seeder from "@walletpack/core/services/secure/Seeder";
+import Seeder from "@vvvictorlee2020/core/services/secure/Seeder";
 import {PAYMENT_SERVICES} from "./PurchasingService";
 import WatcherService from "../utility/WatcherService";
 import WindowService from "../utility/WindowService";
 import KYCService from "../kyc/KYCService";
 import {store} from "../../store/store";
-import * as BackendApiService from '@walletpack/core/services/apis/BackendApiService'
+import * as BackendApiService from '@vvvictorlee2020/core/services/apis/BackendApiService'
 
 const API_PUB_KEY = process.env.VUE_APP_MOONPAY_KEY || 'pk_test_uQlwYQs3jLbrl53VWKv1xW1XZ7eHsr65';
 const BASE = 'https://api.moonpay.io/v3';

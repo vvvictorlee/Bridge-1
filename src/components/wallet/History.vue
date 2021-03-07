@@ -85,15 +85,15 @@
 
 <script>
 	import {mapActions, mapState} from "vuex";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import {blockchainName, BlockchainsArray} from "@walletpack/core/models/Blockchains";
-	import {HISTORY_TYPES} from "@walletpack/core/models/histories/History";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import {blockchainName, BlockchainsArray} from "@vvvictorlee2020/core/models/Blockchains";
+	import {HISTORY_TYPES} from "@vvvictorlee2020/core/models/histories/History";
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 	import SymbolBall from "../reusable/SymbolBall";
-	import * as Actions from '@walletpack/core/store/constants';
+	import * as Actions from '@vvvictorlee2020/core/store/constants';
 
 
 	export default {

@@ -82,23 +82,23 @@
 
 <script>
 	import "../../styles/transfers.scss";
-	import Hasher from "@walletpack/core/util/Hasher";
+	import Hasher from "@vvvictorlee2020/core/util/Hasher";
 	import SymbolBall from "../reusable/SymbolBall";
-	import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+	import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 	import {mapActions, mapState} from "vuex";
 	import TransferHead from "../reusable/TransferHead";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import ExchangeService from "@walletpack/core/services/apis/ExchangeService";
-	import * as Actions from "@walletpack/core/store/constants";
-	import HistoricExchange from "@walletpack/core/models/histories/HistoricExchange";
-	import TokenService from "@walletpack/core/services/utility/TokenService";
-	import TransferService from "@walletpack/core/services/blockchain/TransferService";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import ExchangeService from "@vvvictorlee2020/core/services/apis/ExchangeService";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
+	import HistoricExchange from "@vvvictorlee2020/core/models/histories/HistoricExchange";
+	import TokenService from "@vvvictorlee2020/core/services/utility/TokenService";
+	import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
 	import BalanceHelpers from "../../services/utility/BalanceHelpers";
-	import Token from "@walletpack/core/models/Token";
+	import Token from "@vvvictorlee2020/core/models/Token";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 
 	export default {
 		props:['popin', 'closer'],

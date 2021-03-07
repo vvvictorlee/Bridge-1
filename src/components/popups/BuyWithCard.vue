@@ -72,9 +72,9 @@
 
 <script>
 	import "../../styles/transfers.scss";
-	import ContactService from "@walletpack/core/services/utility/ContactService";
-	import Contact from "@walletpack/core/models/Contact";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
+	import ContactService from "@vvvictorlee2020/core/services/utility/ContactService";
+	import Contact from "@vvvictorlee2020/core/models/Contact";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
 
 	import TransferHead from "../reusable/TransferHead";
 	import PurchasingService from "../../services/credit/PurchasingService";
@@ -84,7 +84,7 @@
 	import BalanceHelpers from "../../services/utility/BalanceHelpers";
 	import Moonpay from "../../services/credit/Moonpay";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
-	import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+	import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 
 	export default {
 		props:['popin', 'closer'],

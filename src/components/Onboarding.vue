@@ -125,10 +125,10 @@
 
 	import PopupService from "../services/utility/PopupService";
 	import Popups from "../util/Popups";
-	import * as Actions from '@walletpack/core/store/constants'
+	import * as Actions from '@vvvictorlee2020/core/store/constants'
 	import {mapActions, mapState} from "vuex";
 
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 	import SingularAccounts from "../services/utility/SingularAccounts";
 	import AccountCreator from "../services/utility/AccountCreator";
 	import RidlService from "../services/utility/RidlService";

@@ -1,5 +1,5 @@
-import StoreService from "@walletpack/core/services/utility/StoreService";
-import IdentityService from "@walletpack/core/services/utility/IdentityService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
+import IdentityService from "@vvvictorlee2020/core/services/utility/IdentityService";
 import {GET, POST} from "../../util/API";
 import * as UIActions from "../../store/ui_actions";
 

@@ -1,23 +1,23 @@
 import * as UIActions from './ui_actions'
-import * as Actions from '@walletpack/core/store/constants'
+import * as Actions from '@vvvictorlee2020/core/store/constants'
 import StorageService from '../services/utility/StorageService';
 import WalletStorageService from '../services/wallets/StorageService';
-import Scatter from "@walletpack/core/models/Scatter";
+import Scatter from "@vvvictorlee2020/core/models/Scatter";
 import BackupService from "../services/utility/BackupService";
 import SingletonService from "../services/utility/SingletonService";
-import Keypair from '@walletpack/core/models/Keypair';
-import Account from '@walletpack/core/models/Account';
-import KeyPairService from '@walletpack/core/services/secure/KeyPairService';
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-import {Blockchains} from "@walletpack/core/models/Blockchains";
+import Keypair from '@vvvictorlee2020/core/models/Keypair';
+import Account from '@vvvictorlee2020/core/models/Account';
+import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
 const migrations = require('../migrations/version');
-import HistoricTransfer from '@walletpack/core/models/histories/HistoricTransfer';
-import HistoricExchange from '@walletpack/core/models/histories/HistoricExchange';
-import HistoricAction from '@walletpack/core/models/histories/HistoricAction';
-import {HISTORY_TYPES} from '@walletpack/core/models/histories/History';
+import HistoricTransfer from '@vvvictorlee2020/core/models/histories/HistoricTransfer';
+import HistoricExchange from '@vvvictorlee2020/core/models/histories/HistoricExchange';
+import HistoricAction from '@vvvictorlee2020/core/models/histories/HistoricAction';
+import {HISTORY_TYPES} from '@vvvictorlee2020/core/models/histories/History';
 import SingularAccounts from "../services/utility/SingularAccounts";
 import Friend from "../models/Friend";
-import IdGenerator from '@walletpack/core/util/IdGenerator';
+import IdGenerator from '@vvvictorlee2020/core/util/IdGenerator';
 
 const isPopOut = location.hash.replace("#/", '').split('?')[0] === 'popout' || !!window.PopOutWebView;
 let migrationChecked = false;
@@ -107,7 +107,7 @@ export const actions = {
 		    if(!scatter.friends) scatter.friends = [];
 		    scatter.friends = scatter.friends.map(x => Friend.fromJson(x));
 
-		    await require('@walletpack/core/migrations/migrator').default(scatter, require('../migrations/version'));
+		    await require('@vvvictorlee2020/core/migrations/migrator').default(scatter, require('../migrations/version'));
 		    scatter.meta.regenerateVersion();
 	    }
 

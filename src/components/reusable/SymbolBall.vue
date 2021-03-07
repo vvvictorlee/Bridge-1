@@ -13,7 +13,7 @@
 </template>
 
 <script>
-	import Hasher from "@walletpack/core/util/Hasher";
+	import Hasher from "@vvvictorlee2020/core/util/Hasher";
 	import {mapState} from "vuex";
 	import BalanceHelpers from "../../services/utility/BalanceHelpers";
 

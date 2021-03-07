@@ -29,7 +29,7 @@
 </template>
 
 <script>
-	import AppsService from "@walletpack/core/services/apps/AppsService";
+	import AppsService from "@vvvictorlee2020/core/services/apps/AppsService";
 	import {mapActions, mapState} from "vuex";
 	import * as UIActions from "../../store/ui_actions";
 

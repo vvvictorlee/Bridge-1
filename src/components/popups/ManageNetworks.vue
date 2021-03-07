@@ -83,16 +83,16 @@
 
 <script>
 	import {mapActions, mapState} from "vuex";
-	import * as Actions from "@walletpack/core/store/constants";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository';
-	import {GET} from "@walletpack/core/services/apis/BackendApiService";
-	import Network from '@walletpack/core/models/Network'
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
+	import {GET} from "@vvvictorlee2020/core/services/apis/BackendApiService";
+	import Network from '@vvvictorlee2020/core/models/Network'
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
-	import NetworkService from "@walletpack/core/services/blockchain/NetworkService";
-	import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+	import NetworkService from "@vvvictorlee2020/core/services/blockchain/NetworkService";
+	import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 	import SingularAccounts from "../../services/utility/SingularAccounts";
-	import * as PluginTypes from '@walletpack/core/plugins/PluginTypes';
+	import * as PluginTypes from '@vvvictorlee2020/core/plugins/PluginTypes';
 	import * as UIActions from "../../store/ui_actions";
 
 	const STATES = {

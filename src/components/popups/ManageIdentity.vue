@@ -98,7 +98,7 @@
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
 	import RidlService from "../../services/utility/RidlService";
-	import IdentityService from "@walletpack/core/services/utility/IdentityService";
+	import IdentityService from "@vvvictorlee2020/core/services/utility/IdentityService";
 
 	let saveTimeout, nameTimeout;
 	export default {

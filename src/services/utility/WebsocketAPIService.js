@@ -1,8 +1,8 @@
-import IdGenerator from '@walletpack/core/util/IdGenerator';
+import IdGenerator from '@vvvictorlee2020/core/util/IdGenerator';
 import ecc from 'eosjs-ecc';
 const PROOF_KEY = 'EOS62b3WxfuRyP7JYaDbF3gr49joLWYpsF3kPmo2HPxPuGRDiRUwj';
-import * as Actions from '@walletpack/core/store/constants';
-import StoreService from '@walletpack/core/services/utility/StoreService';
+import * as Actions from '@vvvictorlee2020/core/store/constants';
+import StoreService from '@vvvictorlee2020/core/services/utility/StoreService';
 import BalanceHelpers from "./BalanceHelpers";
 
 const HOST = 'wss://api.get-scatter.com/ws';

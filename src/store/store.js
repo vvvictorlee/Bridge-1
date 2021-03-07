@@ -4,7 +4,7 @@ import Vuex from 'vuex';
 import {mutations} from './mutations';
 import {actions} from './actions';
 import {PopupDisplayTypes} from "../models/popups/Popup";
-import PluginRepository from '@walletpack/core/plugins/PluginRepository';
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository';
 
 Vue.use(Vuex);
 

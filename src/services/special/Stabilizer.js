@@ -1,14 +1,14 @@
 import SingularAccounts from "../utility/SingularAccounts";
 import PopupService from "../utility/PopupService";
 import Popups from "../../util/Popups";
-import ExchangeService from "@walletpack/core/services/apis/ExchangeService";
-import TransferService from "@walletpack/core/services/blockchain/TransferService";
-import HistoricExchange from "@walletpack/core/models/histories/HistoricExchange";
-import {Blockchains} from '@walletpack/core/models/Blockchains';
-import Token from '@walletpack/core/models/Token';
-import * as Actions from '@walletpack/core/store/constants'
-import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
-import TokenService from "@walletpack/core/services/utility/TokenService";
+import ExchangeService from "@vvvictorlee2020/core/services/apis/ExchangeService";
+import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
+import HistoricExchange from "@vvvictorlee2020/core/models/histories/HistoricExchange";
+import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains';
+import Token from '@vvvictorlee2020/core/models/Token';
+import * as Actions from '@vvvictorlee2020/core/store/constants'
+import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
+import TokenService from "@vvvictorlee2020/core/services/utility/TokenService";
 import {store} from "../../store/store";
 
 const fail = msg => {

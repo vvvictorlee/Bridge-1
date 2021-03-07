@@ -19,7 +19,7 @@
 </template>
 
 <script>
-	import {IdentityRequiredFields} from "@walletpack/core/models/Identity";
+	import {IdentityRequiredFields} from "@vvvictorlee2020/core/models/Identity";
 	import {mapState} from "vuex";
 	import PopOutLogos from "../../components/popups/PopOutLogos";
 

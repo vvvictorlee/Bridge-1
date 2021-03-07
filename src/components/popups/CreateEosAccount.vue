@@ -41,12 +41,12 @@
 	import Popups from "../../util/Popups";
 	import PopupService from "../../services/utility/PopupService";
 	import {mapState} from "vuex";
-	import Keypair from '@walletpack/core/models/Keypair'
-	import KeyPairService from '@walletpack/core/services/secure/KeyPairService'
+	import Keypair from '@vvvictorlee2020/core/models/Keypair'
+	import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService'
 	import EosioHelpers from "../../services/special/EosioHelpers";
-	import {Blockchains} from '@walletpack/core/models/Blockchains'
+	import {Blockchains} from '@vvvictorlee2020/core/models/Blockchains'
 	import AccountCreator from "../../services/utility/AccountCreator";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
 
 	const STATES = {
 		BUY:'buy',

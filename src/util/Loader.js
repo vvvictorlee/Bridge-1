@@ -1,4 +1,4 @@
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 import * as UIActions from "../store/ui_actions";
 
 export default class Loader {

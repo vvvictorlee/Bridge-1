@@ -32,7 +32,7 @@
 	import "../../styles/transfers.scss";
 	import SymbolBall from "../reusable/SymbolBall";
 	import BalanceHelpers from "../../services/utility/BalanceHelpers";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
 
 	let interval, timeout;
 

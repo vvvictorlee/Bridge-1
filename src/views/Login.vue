@@ -49,13 +49,13 @@
 	import Loader from "../util/Loader";
 	import SingletonService from "../services/utility/SingletonService";
 	import {RouteNames} from "../vue/Routing";
-	import * as Actions from "@walletpack/core/store/constants";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
 	import * as UIActions from "../store/ui_actions";
 	import {getFileLocation} from "../services/wallets/FileService";
-	import Scatter from '@walletpack/core/models/Scatter'
-	import Keypair from '@walletpack/core/models/Keypair'
-	import KeyPairService from '@walletpack/core/services/secure/KeyPairService'
-	import AccountService from '@walletpack/core/services/blockchain/AccountService'
+	import Scatter from '@vvvictorlee2020/core/models/Scatter'
+	import Keypair from '@vvvictorlee2020/core/models/Keypair'
+	import KeyPairService from '@vvvictorlee2020/core/services/secure/KeyPairService'
+	import AccountService from '@vvvictorlee2020/core/services/blockchain/AccountService'
 	import SingularAccounts from "../services/utility/SingularAccounts";
 	import KeyService from "../services/utility/KeyService";
 	import WalletHelpers from "../util/WalletHelpers";

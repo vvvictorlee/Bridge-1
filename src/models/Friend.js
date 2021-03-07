@@ -1,4 +1,4 @@
-import IdGenerator from '@walletpack/core/util/IdGenerator'
+import IdGenerator from '@vvvictorlee2020/core/util/IdGenerator'
 
 export class FriendAccount {
 

@@ -50,14 +50,14 @@
 <script>
 	import { mapState, mapActions } from 'vuex'
 	import * as UIActions from "../store/ui_actions";
-	import * as Actions from "@walletpack/core/store/constants";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
 	import SearchBar from "../components/reusable/SearchBar";
 	import Switcher from "../components/reusable/Switcher";
 	import SingularAccounts from "../services/utility/SingularAccounts";
-	import AccountService from '@walletpack/core/services/blockchain/AccountService'
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
-	import Account from '@walletpack/core/models/Account'
-	import BalanceService from '@walletpack/core/services/blockchain/BalanceService';
+	import AccountService from '@vvvictorlee2020/core/services/blockchain/AccountService'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
+	import Account from '@vvvictorlee2020/core/models/Account'
+	import BalanceService from '@vvvictorlee2020/core/services/blockchain/BalanceService';
 	import Popups from "../util/Popups";
 	import PopupService from "../services/utility/PopupService";
 	import {RouteNames} from "../vue/Routing";

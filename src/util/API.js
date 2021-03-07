@@ -1,5 +1,5 @@
 import ecc from 'eosjs-ecc';
-import IdGenerator from "@walletpack/core/util/IdGenerator";
+import IdGenerator from "@vvvictorlee2020/core/util/IdGenerator";
 
 const HOST = process.env.VUE_APP_BRIDGE_API;
 const PROOF_KEY = process.env.VUE_APP_BRIDGE_PROOF;

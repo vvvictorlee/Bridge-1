@@ -61,15 +61,15 @@
 <script>
 	import { mapState, mapActions } from 'vuex'
 	import * as UIActions from "../store/ui_actions";
-	import PriceService from "@walletpack/core/services/apis/PriceService";
-	import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+	import PriceService from "@vvvictorlee2020/core/services/apis/PriceService";
+	import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 	import PopupService from "../services/utility/PopupService";
 	import Popups from "../util/Popups";
-	import ApiService from "@walletpack/core/services/apis/ApiService";
+	import ApiService from "@vvvictorlee2020/core/services/apis/ApiService";
 	import BalanceHelpers from "../services/utility/BalanceHelpers";
 	import {RouteNames} from "../vue/Routing";
 	import SingularAccounts from "../services/utility/SingularAccounts";
-	import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+	import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 	import {STABLE_COINS} from "../services/special/Stabilizer";
 	import SingletonService from "../services/utility/SingletonService";
 

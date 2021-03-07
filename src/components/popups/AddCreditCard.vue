@@ -76,11 +76,11 @@
 </template>
 
 <script>
-	import CreditCard from "@walletpack/core/models/CreditCard";
+	import CreditCard from "@vvvictorlee2020/core/models/CreditCard";
 	import GraphicCard from "../graphics/GraphicCard";
 	import {mapActions, mapState} from "vuex";
-	import * as Actions from "@walletpack/core/store/constants";
-	import IdentityService from "@walletpack/core/services/utility/IdentityService";
+	import * as Actions from "@vvvictorlee2020/core/store/constants";
+	import IdentityService from "@vvvictorlee2020/core/services/utility/IdentityService";
 	import PopupService from "../../services/utility/PopupService";
 	import Popups from "../../util/Popups";
 	import CreditCardService from "../../services/credit/CreditCardService";

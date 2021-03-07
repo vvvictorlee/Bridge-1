@@ -1,4 +1,4 @@
-import * as Mutations from '@walletpack/core/store/constants'
+import * as Mutations from '@vvvictorlee2020/core/store/constants'
 import * as UIActions from './ui_actions'
 import Vue from 'vue';
 

@@ -1,19 +1,19 @@
-import Hasher from "@walletpack/core/util/Hasher";
+import Hasher from "@vvvictorlee2020/core/util/Hasher";
 import AES from 'aes-oop';
-import IdGenerator from "@walletpack/core/util/IdGenerator";
-import Mnemonic from "@walletpack/core/util/Mnemonic";
+import IdGenerator from "@vvvictorlee2020/core/util/IdGenerator";
+import Mnemonic from "@vvvictorlee2020/core/util/Mnemonic";
 import * as bip32 from 'bip32';
 import entropy from 'more-entropy';
-import PluginRepository from '@walletpack/core/plugins/PluginRepository'
+import PluginRepository from '@vvvictorlee2020/core/plugins/PluginRepository'
 import StorageService from "./utility/StorageService";
-import Scatter from "@walletpack/core/models/Scatter";
+import Scatter from "@vvvictorlee2020/core/models/Scatter";
 import Compressor from "../util/Compressor";
-import WalletPack from "@walletpack/core";
-import * as Actions from "@walletpack/core/store/constants";
-import {Blockchains, BlockchainsArray} from "@walletpack/core/models/Blockchains";
-import Keypair from "@walletpack/core/models/Keypair";
-import Account from "@walletpack/core/models/Account";
-import StoreService from "@walletpack/core/services/utility/StoreService";
+import WalletPack from "@vvvictorlee2020/core";
+import * as Actions from "@vvvictorlee2020/core/store/constants";
+import {Blockchains, BlockchainsArray} from "@vvvictorlee2020/core/models/Blockchains";
+import Keypair from "@vvvictorlee2020/core/models/Keypair";
+import Account from "@vvvictorlee2020/core/models/Account";
+import StoreService from "@vvvictorlee2020/core/services/utility/StoreService";
 
 
 export default class BridgeWallet {

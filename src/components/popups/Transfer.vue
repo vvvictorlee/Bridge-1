@@ -33,16 +33,16 @@
 </template>
 <script>
 	import "../../styles/transfers.scss";
-	import Hasher from "@walletpack/core/util/Hasher";
+	import Hasher from "@vvvictorlee2020/core/util/Hasher";
 	import SymbolBall from "../reusable/SymbolBall";
-	import BalanceService from "@walletpack/core/services/blockchain/BalanceService";
+	import BalanceService from "@vvvictorlee2020/core/services/blockchain/BalanceService";
 	import TransferHead from "../reusable/TransferHead";
 	import Popups from "../../util/Popups";
 	import {mapState} from "vuex";
 	import PopupService from "../../services/utility/PopupService";
-	import TransferService from "@walletpack/core/services/blockchain/TransferService";
-	import PluginRepository from "@walletpack/core/plugins/PluginRepository";
-	import {Blockchains} from "@walletpack/core/models/Blockchains";
+	import TransferService from "@vvvictorlee2020/core/services/blockchain/TransferService";
+	import PluginRepository from "@vvvictorlee2020/core/plugins/PluginRepository";
+	import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
 	import PasswordHelpers from "../../services/utility/PasswordHelpers";
 	import RecipientField from '../reusable/RecipientField';
 	import BalanceHelpers from "../../services/utility/BalanceHelpers";
